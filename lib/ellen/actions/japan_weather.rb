@@ -1,6 +1,19 @@
 module Ellen
   module Actions
     class JapanWeather < Base
+      def call
+        message.reply(forecast)
+      end
+
+      private
+
+      def forecast
+        look_for(message.body).to_s
+      end
+
+      def look_for(body)
+        WeatherJp.parse(body)
+      end
     end
   end
 end
