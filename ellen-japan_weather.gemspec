@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Ellen::JapanWeather::VERSION
   spec.authors       = ["Taiki ONO"]
   spec.email         = ["taiks.4559@gmail.com"]
-  spec.summary       = %q{Weather forecast action for ellen bot framework.}
-  spec.description   = %q{An action to tell weather forecast for ellen bot framework.}
+  spec.summary       = %q{Weather forecast action for Ellen bot framework.}
+  spec.description   = %q{An action to tell weather forecast for Ellen bot framework.}
   spec.homepage      = "https://github.com/taiki45/ellen-japan_weather"
   spec.license       = "MIT"
 
