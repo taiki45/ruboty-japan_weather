@@ -13,6 +13,8 @@ module Ellen
 
       def look_for(body)
         WeatherJp.parse(body)
+      rescue WeatherJp::WeatherJpError => e
+        "Error: #{e}"
       end
     end
   end
