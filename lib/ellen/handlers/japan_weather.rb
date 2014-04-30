@@ -3,7 +3,7 @@ module Ellen
     class JapanWeather < Base
       on /の天気/, name: "japan_weather", description: "Reply weather forecast"
 
-      def reply_weather(message)
+      def japan_weather(message)
         Ellen::Actions::JapanWeather.new(message).call
       end
     end
