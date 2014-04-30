@@ -1,4 +1,4 @@
-Copyright (c) 2014 Taiki ONO
+Copyright (c) 2014 Taiki ONO (taiki45)
 
 MIT License
 
