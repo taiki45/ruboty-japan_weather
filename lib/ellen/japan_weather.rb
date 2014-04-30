@@ -1,7 +1,5 @@
+require "weather_jp"
+require "ellen"
 require "ellen/japan_weather/version"
-
-module Ellen
-  module JapanWeather
-    # Your code goes here...
-  end
-end
+require "ellen/actions/japan_weather"
+require "ellen/handlers/japan_weather"
