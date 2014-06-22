@@ -1,16 +1,16 @@
-# Ellen::JapanWeather
-An action to tell weather forecast for [Ellen](https://github.com/r7kamura/ellen/) framework.
+# Ruboty::JapanWeather
+An action to tell weather forecast for [Ruboty](https://github.com/r7kamura/ruboty/) framework.
 
 ## Installation
 ```ruby
 # Gemfile
-gem 'ellen-japan_weather'
+gem 'ruboty-japan_weather'
 ```
 
 ## Usage
 ```
-> @ellen 明日の秋葉原の天気教えて
+> @ruboty 明日の秋葉原の天気教えて
 東京都 千代田区の明日の天気は曇時々雨 最高気温25度 最低気温17度 降水確率は60% です。
-> @ellen きょうのテヘランの天気は？
+> @ruboty きょうのテヘランの天気は？
 イラン テヘランの現在の天気は(17時00分 現在)晴時々曇 です。
 ```
