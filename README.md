@@ -1,6 +1,9 @@
 # Ruboty::JapanWeather
 An action to tell weather forecast for [Ruboty](https://github.com/r7kamura/ruboty/) framework.
 
+## Deprecated
+This gem can not work anymore.
+
 ## Installation
 ```ruby
 # Gemfile
